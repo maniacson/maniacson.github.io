@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simplyinvest</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree" rel="stylesheet">
+    <script src="main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+
+    <!-- intro -->
+    <div id="header" class="d-flex align-items-center justify-content-center">
+        <h3 class="m-0 text-center"> <span id="subheader1">Simplyinvest</span>  <br> Visualize investment and see at a glance.  <br> <br> //COMING SOON//</h3>
+    </div>   
+    <script type="text/javascript">
+        function resize() {
+            var heights = window.innerHeight;
+            document.getElementById("header").style.height = heights + "px";
+        }
+        resize();
+        window.onresize = function () {
+            resize();
+        };
+    </script> 
+
+    <!-- features -->
+    <h3 class="text-center my-5" style = "font-weight: bold;">Learn about our platform features</h3>
+
+        <div id="report" class="container-fluid my-5">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <img src="report.JPG" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>                
+                <div class="col-6">
+                    <div class="row justify-content-center">
+                        <div class="col-8 text-center">
+                            <h4 style = "font-weight: bold;">Infographic Report</h4>
+                            <p>Utilizing institutional data and analyst reports, we rate stocks and express in a simple radar chart. We also digest the complicated annual reports and analyst reports for investors, and use infographics to present in full stock analysis report.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div id="search" class="container-fluid my-5">
+            <div class="row align-items-center">
+                <div class="col-6">
+                    <div class="row justify-content-center">
+                        <div class="col-8 text-center">
+                            <h4 style = "font-weight: bold;">Advanced Stock Search</h4>
+                            <p>No idea about which company to invest in? We allow investors to filter out stocks using a variety of criteria and present results in grid view of radar charts for easier comparison. We also generate investment idea for investors based on search records and current portfolio.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="row justify-content-center">
+                        <div class="col-8">
+                            <img src="grid.JPG" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <div id="portfolio" class="container-fluid my-5">
+                    <div class="row align-items-center">
+                        <div class="col-6">
+                            <div class="row justify-content-center">
+                                <div class="col-8">
+                                    <img src="portfolio.jpg" class="img-fluid" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="row justify-content-center">
+                                <div class="col-8 text-center">
+                                    <h4 style = "font-weight: bold;">Portfolio Tracking</h4>
+                                    <p>No idea about which company to invest in? We allow investors to filter out stocks using a
+                                        variety of criteria and present results in grid view of radar charts for easier comparison. We
+                                        also generate investment idea for investors based on search records and current portfolio.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            <div id="education" class="container-fluid my-5">
+                <div class="row align-items-start">
+                    <div class="col-6">
+                        <div class="row justify-content-center">
+                            <!-- <div class="col-5"></div> -->
+                            <div class="col-8 text-center">
+                                <h4 style = "font-weight: bold;">Investor Education</h4>
+                                <p>We provide comprehensive investment learning materials in terms of videos and posts. How to read
+                                    financial statements? What do the company ratios mean? How to pick a stock? We educate
+                                    investors with long-term investment with value-investing strategy.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="row justify-content-center">
+                            <div class="col-8 text-center">
+                                <h4 style = "font-weight: bold;">Daily News Digest</h4>
+                                <p>We consolidate news and company annoucements for investor's portfolio stocks. Being up-to-date about your investment and market is the essential key of success.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3 class="text-center my-5" style = "font-weight: bold;">How our platform works best</h3>
+            <div class="container-fluid mb-5">
+                <div class="row justify-content-center text-center">
+                    <div class="col-10">
+                        <div class="row align-items-start">
+                    <div class="col-4">
+                        <img src="people.JPG" style = "height: 50px;" alt="">
+                        <p class="mb-0">For</p>
+                        <h4>Anyone</h4>
+                        <p>Subscribe to our free investor education materials to learn basic investment knowledge and financial market. Try the free plan to experience visualized report and how simple it is to pick a stock.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="investor.JPG" style="height: 50px;" alt="">
+                        <p class="mb-0">For</p>
+                        <h4>Retail Investor</h4>
+                        <p>Pick a stock with painless research and reading using advanced search and infographic report features. Keep abreast of market news and track portfolio performance in real-time.</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="professional.JPG" style="height: 50px;" alt="">
+                        <p class="mb-0">For</p>
+                        <h4>Professionals</h4>
+                        <p>Visualize your reports with our infographics, or simply fully utlilize our service and make investment advice to your clients.</p>
+                    </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
